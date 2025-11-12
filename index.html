@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>BrightMinds | Daily Logic Questions from Biblical Stories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Sharpen your mind daily with 7-12 LSAT-style logic questions based on stories from the Bible. Available at brightminds.today">
+	<meta name="author" content="BrightMinds">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><span class="b1">B</span><span class="b2">r</span><span class="b3">i</span><span class="b4">g</span><span class="b5">h</span><span class="b1">t</span><span class="b2">M</span><span class="b3">i</span><span class="b4">n</span><span class="b5">d</span><span class="b1">s</span></a>
+					</div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Home</a></li>
+								<li class="scroll_btn"><a href="#about" >About</a></li>
+								<li class="scroll_btn"><a href="#projects" >Features</a></li>
+								<li class="scroll_btn"><a href="#team" >How It Works</a></li>
+								<li class="scroll_btn"><a href="#news" >Testimonials</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Download</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Sharpen Your</p>
+							<p class="title2 captionDelay4 FromTop">Mind</p>
+							<p class="title3 captionDelay6 FromTop">Daily</p>
+							<p class="title4 captionDelay7 FromBottom">7-12 LSAT-style logic questions every day, rooted in timeless Biblical stories.</p>
+						</div>
+						<a class="slide_btn FromRight" href="#about" >Learn More</a>
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Biblical</p>
+							<p class="title2 captionDelay4 FromLeft">Logic</p>
+							<p class="title3 captionDelay2 FromLeft">Training</p>
+							<p class="title4 captionDelay7 FromLeft">Challenge yourself with questions based on real stories from Scripture.</p>
+						</div>
+						<a class="slide_btn FromRight" href="#projects" >See Features</a>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Train Like</p>
+							<p class="title2 captionDelay2 FromBottom">LSAT</p>
+							<p class="title3 captionDelay3 FromBottom">Prep</p>
+							<p class="title4 captionDelay5 FromBottom">Multiple choice logic questions designed to strengthen critical thinking skills.</p>
+						</div>
+						<a class="slide_btn FromRight" href="#contacts" >Download App</a>
+
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/slide1_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+		
+		
+		<!-- ABOUT -->
+		<section id="about">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Daily</b> Questions</p>
+								<span>Receive 7-12 new logic questions every day to keep your mind sharp and engaged.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>LSAT</b> Style</p>
+								<span>Questions modeled after LSAT multiple choice format to develop critical reasoning skills.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Biblical</b> Stories</p>
+								<span>Each question is rooted in real narratives from Scripture, making learning meaningful.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Mobile</b> Ready</p>
+								<span>Practice anywhere, anytime with our fully optimized mobile application.</span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+			
+			<!-- CLEAN CODE -->
+			<div class="cleancode_block">
+				
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p class="title"><b>Logic</b> Training</p>
+							<span>Develop critical thinking and logical reasoning skills through carefully crafted multiple-choice questions based on Biblical narratives.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab2">
+							<p class="title"><b>Daily</b> Practice</p>
+							<span>Consistency is key. Get fresh questions delivered daily to build a habit of intellectual growth and spiritual reflection.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p class="title"><b>Scripture</b> Based</p>
+							<span>Every question draws from real Biblical stories, connecting logical reasoning with timeless wisdom and narratives.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p class="title"><b>Track</b> Progress</p>
+							<span>Monitor your performance over time, see your improvement, and identify areas for continued growth.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab5">
+							<p class="title"><b>LSAT</b> Format</p>
+							<span>Questions follow the rigorous multiple-choice format used in standardized tests to sharpen analytical skills.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab6">
+							<p class="title"><b>Mobile</b> App</p>
+							<span>Access BrightMinds anywhere on your smartphone. Available for iOS and Android devices.</span>
+						</div>
+					</div>
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a class="i1" href="#tab1" data-toggle="tab" ><i></i><span>Logic Training</span></a></li>
+						<li><a class="i2" href="#tab2" data-toggle="tab" ><i></i><span>Daily Practice</span></a></li>
+						<li><a class="i3" href="#tab3" data-toggle="tab" ><i></i><span>Scripture Based</span></a></li>
+						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>Track Progress</span></a></li>
+						<li><a class="i5" href="#tab5" data-toggle="tab" ><i></i><span>LSAT Format</span></a></li>
+						<li><a class="i6" href="#tab6" data-toggle="tab" ><i></i><span>Mobile App</span></a></li>
+					</ul><!-- CASTOM TAB -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+			
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+					
+					<!-- ROW -->
+					<div class="row">
+
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
+							<h2><b>Sharpen Your Mind</b> with BrightMinds</h2>
+							<p>BrightMinds combines the intellectual rigor of LSAT-style logic questions with the timeless wisdom of Biblical narratives. Each day, you'll receive 7-12 carefully crafted multiple-choice questions that challenge your critical thinking while deepening your understanding of Scripture.</p>
+							<p>Whether you're preparing for standardized tests, want to strengthen your reasoning skills, or simply enjoy the challenge of logical puzzles rooted in meaningful stories, BrightMinds offers a unique daily practice that exercises both mind and spirit.</p>
+							<a class="btn btn-active" href="#contacts" ><span data-hover="Get Started Today">Download the App</span></a>
+							<a class="btn" href="#about" >Learn More</a>
+						</div>
+						
+						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
+							<img class="ipad_img1" src="images/img1.png" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- PROJECTS -->
+		<section id="projects" class="padbot20">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>App</b> Features</h2>
+			</div><!-- //CONTAINER -->
+			
+				
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+					
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/1.jpg" alt="" />
+								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Daily Question Feed</a>
+									<span>Fresh Questions Daily</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/2.jpg" alt="" />
+								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Progress Tracking</a>
+									<span>Monitor Your Growth</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/3.jpg" alt="" />
+								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Scripture Stories</a>
+									<span>Biblical Context</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/4.jpg" alt="" />
+								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Multiple Choice Format</a>
+									<span>LSAT-Style Questions</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+					
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/5.jpg" alt="" />
+								<a class="zoom" href="images/works/5.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Clean Interface</a>
+									<span>Distraction-Free Learning</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work5 -->
+					
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/6.jpg" alt="" />
+								<a class="zoom" href="images/works/6.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Detailed Explanations</a>
+									<span>Learn From Answers</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work6 -->
+					
+					<!-- work7 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/7.jpg" alt="" />
+								<a class="zoom" href="images/works/7.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="portfolio-post.html" >Streak Building</a>
+									<span>Build Daily Habits</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work7 -->
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+			
+			
+			<!-- OUR CLIENTS -->
+			<div class="our_clients">
+			
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/1.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/2.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/3.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/4.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/5.jpg" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/6.jpg" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- CONTAINER -->
+			</div><!-- //OUR CLIENTS -->
+		</section><!-- //PROJECTS -->
+		
+		
+		<!-- TEAM -->
+		<section id="team">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>How</b> It Works</h2>
+				
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+						
+					<!-- TEAM SLIDER -->
+					<div class="owl-demo owl-carousel team_slider">
+				
+						<!-- crewman1 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 1: Download</p>
+										<span>Get the app from your app store</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-mobile"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+						
+						<!-- crewman2 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 2: Daily Questions</p>
+										<span>Receive 7-12 new questions each day</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-calendar"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman2 -->
+						
+						<!-- crewman3 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 3: Answer & Learn</p>
+										<span>Test your logic and see explanations</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-check"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman3 -->
+						
+						<!-- crewman4 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/4.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 4: Track Progress</p>
+										<span>Monitor your performance over time</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-bar-chart"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman4 -->
+						
+						<!-- crewman5 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/5.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 5: Build Streaks</p>
+										<span>Develop consistent daily practice</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-fire"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman5 -->
+						
+						<!-- crewman6 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/6.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Step 6: Grow Deeper</p>
+										<span>Explore Biblical context & meaning</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-book"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman6 -->
+						
+						<!-- crewman7 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/7.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Example Question</p>
+										<span>Feeding of the 5,000 logic puzzle</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-question"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman7 -->
+						
+						<!-- crewman8 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/8.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Join Community</p>
+										<span>Connect with other learners</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="javascript:void(0);" ><i class="fa fa-users"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman8 -->
+					</div><!-- TEAM SLIDER -->
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+		
+		
+		<!-- NEWS -->
+		<section id="news">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>What Users</b> Are Saying</h2>
+				
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+						
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+						
+						<!-- TESTIMONIAL1 -->
+						<div class="item">
+							<div class="testim_content">"BrightMinds has transformed my morning routine. The questions are challenging yet accessible, and I love how they connect logical thinking with Biblical narratives. It's like LSAT prep meets devotional time."</div>
+							<div class="testim_author">—  Sarah M., <b>Law Student</b></div>
+						</div><!-- TESTIMONIAL1 -->
+						
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<div class="testim_content">"As a teacher, I appreciate how BrightMinds develops critical thinking skills. The questions are well-crafted and force you to slow down and really analyze the Biblical text. My students love it too!"</div>
+							<div class="testim_author">—  David L., <b>High School Teacher</b></div>
+						</div><!-- TESTIMONIAL2 -->
+						
+						<!-- TESTIMONIAL3 -->
+						<div class="item">
+							<div class="testim_content">"I've been using BrightMinds for three months now and haven't missed a day. The streak feature keeps me motivated, and I've noticed real improvement in my analytical thinking. Highly recommend!"</div>
+							<div class="testim_author">—  Rachel K., <b>Graduate Student</b></div>
+						</div><!-- TESTIMONIAL3 -->
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+				
+				<!-- RECENT POSTS -->
+				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+						<div class="post_item">
+							<div class="post_item_img">
+								<img src="images/blog/1.jpg" alt="" />
+								<a class="link" href="blog-post.html" ></a>
+							</div>
+							<div class="post_item_content">
+								<a class="title" href="blog-post.html" >Why Logic Training Matters for Faith</a>
+								<ul class="post_item_inf">
+									<li><a href="javascript:void(0);" >BrightMinds Team</a> |</li>
+									<li><a href="javascript:void(0);" >Critical Thinking</a> |</li>
+									<li><a href="javascript:void(0);" >15 Comments</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+						<div class="post_item">
+							<div class="post_item_img">
+								<img src="images/blog/2.jpg" alt="" />
+								<a class="link" href="blog-post.html"></a>
+							</div>
+							<div class="post_item_content">
+								<a class="title" href="blog-post.html" >How Biblical Stories Teach Logic</a>
+								<ul class="post_item_inf">
+									<li><a href="javascript:void(0);" >Dr. James Chen</a> |</li>
+									<li><a href="javascript:void(0);" >Education</a> |</li>
+									<li><a href="javascript:void(0);" >22 Comments</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+						<div class="post_item">
+							<div class="post_item_img">
+								<img src="images/blog/3.jpg" alt="" />
+								<a class="link" href="blog-post.html"></a>
+							</div>
+							<div class="post_item_content">
+								<a class="title" href="blog-post.html" >Building a Daily Learning Habit</a>
+								<ul class="post_item_inf">
+									<li><a href="javascript:void(0);" >Sarah Williams</a> |</li>
+									<li><a href="javascript:void(0);" >Productivity</a> |</li>
+									<li><a href="javascript:void(0);" >8 Comments</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- RECENT POSTS -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<h4><b>Recent</b> Updates</h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/1.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="blog.html" >New Questions Added: Parables of Jesus</a>
+							<ul class="post_item_inf_small">
+								<li>brightminds.today</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/2.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="blog.html" >Updated Progress Tracking Features</a>
+							<ul class="post_item_inf_small">
+								<li>brightminds.today</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/3.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="blog.html" >Community Forum Now Live</a>
+							<ul class="post_item_inf_small">
+								<li>brightminds.today</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>About</b> BrightMinds</h4>
+					<p>BrightMinds is a mobile quiz app that delivers 7-12 daily LSAT-style logic questions based on Biblical stories. We combine critical thinking training with meaningful Scripture engagement.</p>
+					<p>Visit us at <b>brightminds.today</b> to start sharpening your mind through faith-based logic training.</p>
+					<ul class="social">
+						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-instagram"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="respond_clear"></div>
+				
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Get</b> Started</h4>
+
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="email" value="Email Address" onFocus="if (this.value == 'Email Address') this.value = '';" onBlur="if (this.value == '') this.value = 'Email Address';" />
+								<textarea name="message" onFocus="if (this.value == 'Questions or comments?') this.value = '';" onBlur="if (this.value == '') this.value = 'Questions or comments?';">Questions or comments?</textarea>
+								<input class="contact_btn" type="submit" value="Stay Updated" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+	
+	
+	<!-- MAP -->
+	<div id="map">
+		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
+		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
+	</div><!-- //MAP -->
+
+</div>
+</body>
+</html>
